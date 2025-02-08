@@ -17,7 +17,7 @@ var config = {
 // Generating config.yaml file 
 const yamlStr = yaml.stringify(config);
 
-fs.writeFileSync('config.yaml', yamlStr, 'utf8');
+fs.writeFileSync('../server/config.yaml', yamlStr, 'utf8');
 console.log('config.yaml file created successfully.');
 
 http.createServer(function (req, res) {
