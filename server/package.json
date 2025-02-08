@@ -4,7 +4,8 @@
   "main": "app",
   "scripts": {
     "test": "node app.js",
-    "suscepibilityCheck": "node suscepibilityCheck.js"
+    "suscepibilityCheck": "node suscepibilityCheck.js",
+    "securityAudit": "npm audit"
   },
   "author": "Sycinz",
   "license": "Apache-2.0",

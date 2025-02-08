@@ -1,3 +1,6 @@
-website:
-  port: 9191
+general:
+  website_title: Multi Dashboard
+  working_type: server
+  website_port: 9191
+  listening_port: 9192
   host: localhost
