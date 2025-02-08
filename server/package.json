@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "app",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Sycinz",
+  "license": "Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "yaml": "^2.7.0"
+  }
+}
