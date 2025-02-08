@@ -3,8 +3,11 @@ const yaml = require('yaml');
 const http = require('http');
 
 var config = {
-    website: {
-        port: 9191,
+    general: {
+        website_title: "Multi Dashboard",
+        working_type: "server",
+        website_port: 9191,
+        listening_port: 9192,
         host: 'localhost'
     },
 
@@ -23,4 +26,4 @@ http.createServer(function (req, res) {
     res.end();
 }).listen(8080);
 
-console.log(`Server listening on port ${config.website.port} ...`);
+console.log(`Server listening on ports:\n website: ${config.general.website_port}\n handling_port: ${config.general.listening_port}\n ...`);
