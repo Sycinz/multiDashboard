@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app",
   "scripts": {
-    "test": "node app.js"
+    "test": "node app.js",
+    "suscepibilityCheck": "node suscepibilityCheck.js"
   },
   "author": "Sycinz",
   "license": "Apache-2.0",
